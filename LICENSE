@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 		   GNU LESSER GENERAL PUBLIC LICENSE
+=======
+                   GNU LESSER GENERAL PUBLIC LICENSE
+>>>>>>> fb06f985d90df4c09390cf9b80ef675f7fea8cf0
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
@@ -10,7 +14,11 @@
 the terms and conditions of version 3 of the GNU General Public
 License, supplemented by the additional permissions listed below.
 
+<<<<<<< HEAD
   0. Additional Definitions. 
+=======
+  0. Additional Definitions.
+>>>>>>> fb06f985d90df4c09390cf9b80ef675f7fea8cf0
 
   As used herein, "this License" refers to version 3 of the GNU Lesser
 General Public License, and the "GNU GPL" refers to version 3 of the GNU
@@ -111,7 +119,11 @@ the following:
        a copy of the Library already present on the user's computer
        system, and (b) will operate properly with a modified version
        of the Library that is interface-compatible with the Linked
+<<<<<<< HEAD
        Version. 
+=======
+       Version.
+>>>>>>> fb06f985d90df4c09390cf9b80ef675f7fea8cf0
 
    e) Provide Installation Information, but only if you would otherwise
    be required to provide such information under section 6 of the
