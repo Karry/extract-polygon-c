@@ -365,7 +365,7 @@ static int fillIncludes(const char *inFilename, struct hashtable *includeNodes, 
 		    }
 		}
 	    }
-	} else if (strcmp((char *)name, "bound") == 0) {
+	} else if ((strcmp((char *)name, "bound") == 0) || (strcmp((char *)name, "bounds") == 0)) {
 	} else if (strcmp((char *)name, "osm") == 0) {
 	    xmlChar *att = xmlTextReaderGetAttribute(reader, (xmlChar *)"version");
 	    if (strcmp((char *)att, OSM_VERSION) != 0) {
@@ -374,6 +374,7 @@ static int fillIncludes(const char *inFilename, struct hashtable *includeNodes, 
 	    }
 	    free(att);
 	} else {
+	    fprintf(stderr, "Element name: %s\n", name);
 	    die("Unknown XML element name");
 	}
     } while (ret == 1);
